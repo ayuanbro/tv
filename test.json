@@ -10,6 +10,57 @@
   "quickSearch": 0,
   "filterable": 1
 },
+
+{
+"key":"csp_appys_v1_饭后电影",
+ "name":"饭后(4K)",
+ "type":3,
+ "api":"csp_AppYs",
+"searchable":1,
+"quickSearch":0,
+"filterable":1,
+"ext":"v1_饭后电影"
+},
+
+{
+"name": "筋斗云(4k)",
+"type": 1,
+"url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1494542&key=ijmqvwxABEHILMOT48&url="
+},
+
+{
+     "key": "csp_xpath_555",
+     "name": "（4K）555电影(节点多)",
+     "type": 3,
+     "api": "csp_XPath",
+     "searchable": 1,
+     "quickSearch": 1,
+     "filterable": 0,
+     "ext": "https://cdn.jsdelivr.net/gh/catvod/CatVodTVSpider@master/xpath/555.json"
+},
+
+{
+"key":"csp_appys_v1_美剧虫",
+ "name":"美剧虫(高清)",
+ "type":3,
+ "api":"csp_AppYs",
+"searchable":1,
+"quickSearch":0,
+"filterable":1,
+"ext":"v1_美剧虫"
+},
+
+{
+"key":"csp_appys_iptv_流星雨",
+ "name":"流星雨(4K)",
+ "type":3,
+ "api":"csp_AppYs",
+"searchable":1,
+"quickSearch":0,
+"filterable":1,
+"ext":"iptv_流星雨"
+},
+
     {
     "key": "csp_Aidi",
     "name": "爱迪(爬虫)",
@@ -22,7 +73,7 @@
 
 {
   "key": "csp_N0ys",
-  "name": "90影视(爬虫)",
+  "name": "90影视(AD)",
   "type": 3,
   "api": "csp_N0ys",
   "searchable": 1,
@@ -31,7 +82,7 @@
 },
  {
 "key":"csp_xpath_ysjc",
-"name":"工厂影视(XPath)",
+"name":"工厂影视",
 "type":3,
 "api":"csp_XPath",
 "searchable":1,
@@ -51,7 +102,7 @@
 
 {
   "key": "csp_Auete",
-  "name": "Auete(无广告/高清)",
+  "name": "Auete(高清)",
   "type": 3,
   "api": "csp_Auete",
   "searchable": 1,
@@ -124,7 +175,7 @@
   },
  {
     "key": "csp_xpath_94sm",
-    "name": "94神马(无广告/HD)",
+    "name": "94神马(HD)",
     "type": 3,
     "api": "csp_XPath",
     "searchable": 1,
@@ -134,7 +185,7 @@
 },
 {
     "key": "csp_xpath_jpys",
-    "name": "极品影视(无广告/节点多清晰度不一)",
+    "name": "极品影视(节点多)",
     "type": 3,
     "api": "csp_XPath",
     "searchable": 1,
@@ -154,7 +205,7 @@
 },
 {
     "key": "csp_xpath_jpyszl",
-    "name": "极品直链(无广告/节点多清晰度不一)",
+    "name": "极品直链(节点多)",
     "type": 3,
     "api": "csp_XPathMac",
     "searchable": 1,
@@ -174,7 +225,7 @@
 },
 {
     "key": "csp_xpath_tvci",
-    "name": "大师兄(加载速度慢)",
+    "name": "大师兄(加载慢)",
     "type": 3,
     "api": "csp_XPath",
     "searchable": 1,
@@ -231,16 +282,6 @@
     "quickSearch": 1,
     "filterable": 0,
     "ext": "https://cdn.jsdelivr.net/gh/lite-cucumber/CatVodTVSpider@master/xpath/yyds.json"
-},
-{
-     "key": "csp_xpath_555",
-     "name": "（4K优质）555电影(无广告/节点多清晰度不一)",
-     "type": 3,
-     "api": "csp_XPath",
-     "searchable": 1,
-     "quickSearch": 1,
-     "filterable": 0,
-     "ext": "https://cdn.jsdelivr.net/gh/catvod/CatVodTVSpider@master/xpath/555.json"
 },
 {
      "key": "csp_xpath_sky4k",
@@ -318,7 +359,7 @@
 
 {
 "key":"csp_appys_xiaogui_913e影视",
- "name":"913e影视(M)",
+ "name":"913e影视(!)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -384,7 +425,7 @@
 
 {
 "key":"csp_appys_xiaogui_播放呀",
- "name":"播放呀(M)",
+ "name":"播放呀(AD)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -417,7 +458,7 @@
 
 {
 "key":"csp_appys_xiaogui_嘀哩嘀哩",
- "name":"嘀哩嘀哩(M)",
+ "name":"嘀哩嘀哩(高清)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -461,7 +502,7 @@
 
 {
 "key":"csp_appys_xiaogui_段友影视",
- "name":"段友影视(M)",
+ "name":"段友影视(AD)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -483,7 +524,7 @@
 
 {
 "key":"csp_appys_xiaogui_海胆影视",
- "name":"海胆影视(M)",
+ "name":"海胆影视(AD)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -527,7 +568,7 @@
 
 {
 "key":"csp_appys_xiaogui_京广航",
- "name":"京广航(M)",
+ "name":"京广航(盘)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -549,7 +590,7 @@
 
 {
 "key":"csp_appys_xiaogui_久九影视",
- "name":"久九影视(M)",
+ "name":"久九(加载慢)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -593,7 +634,7 @@
 
 {
 "key":"csp_appys_xiaogui_抹茶猪",
- "name":"抹茶猪(M)",
+ "name":"抹茶猪(!AD)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -626,7 +667,7 @@
 
 {
 "key":"csp_appys_xiaogui_思古影视",
- "name":"思古影视(M)",
+ "name":"思古(M)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -703,7 +744,7 @@
 
 {
 "key":"csp_appys_xiaogui_星空影视",
- "name":"星空影视(M)",
+ "name":"星空(高清)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -736,7 +777,7 @@
 
 {
 "key":"csp_appys_xiaogui_影视工场",
- "name":"影视工场(M)",
+ "name":"影视工场(!)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -758,7 +799,7 @@
 
 {
 "key":"csp_appys_v1_80影视",
- "name":"80影视(M)",
+ "name":"80影视(!)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -769,7 +810,7 @@
 
 {
 "key":"csp_appys_v1_80K影视",
- "name":"80K影视(M)",
+ "name":"80K影视(部分!)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -780,7 +821,7 @@
 
 {
 "key":"csp_appys_v1_CJT影院",
- "name":"CJT影院(M)",
+ "name":"CJT(高清)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -791,7 +832,7 @@
 
 {
 "key":"csp_appys_v1_HG影视",
- "name":"HG影视(M)",
+ "name":"HG(加载慢)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -802,7 +843,7 @@
 
 {
 "key":"csp_appys_v1_U5影视",
- "name":"U5影视(M)",
+ "name":"U5(AD)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -835,7 +876,7 @@
 
 {
 "key":"csp_appys_v1_艾特影视",
- "name":"艾特影视(M)",
+ "name":"艾特(AD)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -868,7 +909,7 @@
 
 {
 "key":"csp_appys_v1_比邻影视",
- "name":"比邻影视(M)",
+ "name":"比邻(AD)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -923,7 +964,7 @@
 
 {
 "key":"csp_appys_v1_初心影视",
- "name":"初心影视(M)",
+ "name":"初心(!)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1009,16 +1050,6 @@
 "ext":"v1_二狗电影"
 },
 
-{
-"key":"csp_appys_v1_饭后电影",
- "name":"饭后电影(M)",
- "type":3,
- "api":"csp_AppYs",
-"searchable":1,
-"quickSearch":0,
-"filterable":1,
-"ext":"v1_饭后电影"
-},
 
 {
 "key":"csp_appys_v1_飞捷影视",
@@ -1055,7 +1086,7 @@
 
 {
 "key":"csp_appys_v1_辉哥影视",
- "name":"辉哥影视(M)",
+ "name":"辉哥(高清)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1154,7 +1185,7 @@
 
 {
 "key":"csp_appys_v1_橘子影视",
- "name":"橘子影视(M)",
+ "name":"橘子(高清)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1165,7 +1196,7 @@
 
 {
 "key":"csp_appys_v1_看剧吧",
- "name":"看剧吧(M)",
+ "name":"看剧吧(高清)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1187,7 +1218,7 @@
 
 {
 "key":"csp_appys_v1_蓝光视频",
- "name":"蓝光视频(M)",
+ "name":"蓝光(AD)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1198,7 +1229,7 @@
 
 {
 "key":"csp_appys_v1_林谷影视",
- "name":"林谷影视(M)",
+ "name":"林谷(AD)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1209,7 +1240,7 @@
 
 {
 "key":"csp_appys_v1_绿箭影视",
- "name":"绿箭影视(M)",
+ "name":"绿箭(高清)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1242,7 +1273,7 @@
 
 {
 "key":"csp_appys_v1_冷视TV",
- "name":"冷视TV(M)",
+ "name":"冷视(高清)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1264,7 +1295,7 @@
 
 {
 "key":"csp_appys_v1_麻瓜视频",
- "name":"麻瓜视频(M)",
+ "name":"麻瓜(高清)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1286,7 +1317,7 @@
 
 {
 "key":"csp_appys_v1_喵乐影视",
- "name":"喵乐影视(M)",
+ "name":"喵乐(!)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1319,7 +1350,7 @@
 
 {
 "key":"csp_appys_v1_木子电影",
- "name":"木子电影(M)",
+ "name":"木子(AD)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1341,7 +1372,7 @@
 
 {
 "key":"csp_appys_v1_南府追剧",
- "name":"南府追剧(M)",
+ "name":"南府追剧(节点多)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1352,7 +1383,7 @@
 
 {
 "key":"csp_appys_v1_南府影视",
- "name":"南府影视(M)",
+ "name":"南府(节点多)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1370,17 +1401,6 @@
 "quickSearch":0,
 "filterable":1,
 "ext":"v1_暖光影视"
-},
-
-{
-"key":"csp_appys_v1_美剧虫",
- "name":"美剧虫(M)",
- "type":3,
- "api":"csp_AppYs",
-"searchable":1,
-"quickSearch":0,
-"filterable":1,
-"ext":"v1_美剧虫"
 },
 
 {
@@ -1418,7 +1438,7 @@
 
 {
 "key":"csp_appys_v1_奇趣影视",
- "name":"奇趣影视(M)",
+ "name":"奇趣(!)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1473,7 +1493,7 @@
 
 {
 "key":"csp_appys_v1_手指影视",
- "name":"手指影视(M)",
+ "name":"手指(高清)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1484,7 +1504,7 @@
 
 {
 "key":"csp_appys_v1_淘剧社",
- "name":"淘剧社(M)",
+ "name":"淘剧社(加载慢)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1517,7 +1537,7 @@
 
 {
 "key":"csp_appys_v1_兔子窝",
- "name":"兔子窝(M)",
+ "name":"兔子窝(!)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1616,7 +1636,7 @@
 
 {
 "key":"csp_appys_v1_小极影视",
- "name":"小极影视(M)",
+ "name":"小极(高清)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1693,7 +1713,7 @@
 
 {
 "key":"csp_appys_v1_益达影院",
- "name":"益达影院(M)",
+ "name":"益达(高清)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1770,7 +1790,7 @@
 
 {
 "key":"csp_appys_v1_月色影视",
- "name":"月色影视(M)",
+ "name":"月色(高清)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1781,7 +1801,7 @@
 
 {
 "key":"csp_appys_v1_影阅阁",
- "name":"影阅阁(M)",
+ "name":"影阅阁(高清)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1924,7 +1944,7 @@
 
 {
 "key":"csp_appys_iptv_2号币",
- "name":"2号币(M)",
+ "name":"2号币(AD)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1935,7 +1955,7 @@
 
 {
 "key":"csp_appys_iptv_HG影视",
- "name":"HG影视(M)",
+ "name":"HG(!)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1946,7 +1966,7 @@
 
 {
 "key":"csp_appys_iptv_傲视影院",
- "name":"傲视影院(M)",
+ "name":"傲视(加载慢)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -1957,7 +1977,7 @@
 
 {
 "key":"csp_appys_iptv_尘梓TV",
- "name":"尘梓TV(M)",
+ "name":"尘梓(!)",
  "type":3,
  "api":"csp_AppYs",
 "searchable":1,
@@ -2088,17 +2108,6 @@
 },
 
 {
-"key":"csp_appys_iptv_流星雨",
- "name":"流星雨(M)",
- "type":3,
- "api":"csp_AppYs",
-"searchable":1,
-"quickSearch":0,
-"filterable":1,
-"ext":"iptv_流星雨"
-},
-
-{
 "key":"csp_appys_iptv_冷月TV",
  "name":"冷月TV(M)",
  "type":3,
@@ -2153,7 +2162,11 @@
 "ext":"iptv_乐酷TV"
 },
 
-{"key":"csp_appys_iptv_小极TV", "name":"小极TV(M)", "type":3, "api":"csp_AppYs","searchable":1,"quickSearch":0,"filterable":1,"ext":"iptv_小极TV"}
+{"key":"csp_appys_iptv_小极TV",
+ "name":"小极(AD)",
+ "type":3, 
+"api":"csp_AppYs",
+"searchable":1,"quickSearch":0,"filterable":1,"ext":"iptv_小极TV"}
  ],
 
   "lives": [
@@ -2686,10 +2699,6 @@
       "url": "http://jx.ledu8.cn/api/?key=P8QSgO61p1MpHV2ALn&url="
     },
       {
-      "name": "筋斗云",
-      "type": 1,
-      "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1494542&key=ijmqvwxABEHILMOT48&url="
-    },
     {
       "name": "绿箭影视1",
       "type": 1,
